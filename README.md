@@ -1,10 +1,10 @@
-# Python + Pytest API Testing Demo
+# Python :snake: + Pytest API Testing Demo  - Super Speedy! :runner:
 
 This demo project showcases the following import aspects of good test architecture and test case design, namely the use of good namining conventions and file organisation, fixtures, markers and parametrization (at test case and fixture levels) allowing for data driven tests.
 
 I make use of pipenv to create a virtual enviroment (recommended).
 
-# Installation instructions
+## Installation instructions :clipboard:
 
 ```
 pip install pipenv
@@ -20,7 +20,7 @@ pipenv install --dev
 
 This will install all the dependancies located in the Pipfile.lock
 
-# How to run the tests
+## How to run the tests :question:
 
 Run any of the following commands in your terminal:
 ```
@@ -30,10 +30,10 @@ pipenv run pytest -s -v -m updateprofile
 pipenv run pytest -s -v -m deleteprofile
 ```
 
-# Future enhancements
+### Future enhancements :thumbsup:
 
-1) paramertize Base URL and Path
-2) add try catch errors, try return, except raise 
+1) Paramertize Base URL and Path
+2) Add try catch errors, try return, except raise 
 3) Add FOR / WHILE loops to loop through all customers
 4) Add negative test cases
 5) Add border value test cases 
@@ -41,9 +41,9 @@ pipenv run pytest -s -v -m deleteprofile
 7) Add test reports, such as Allure-Reporting
 8) Add slack results integration, so whole team are exposed to test results
 9) Add to CI Pipeline
-10) parallel testing (pytest allows with pytest-xdist)
+10) Enable parallel testing (pytest allows with pytest-xdist)
 11) More markers for different test suites e.g. smoke, regression, profile regression (where you know the dev code change was onlt to profiles)
-12) implement cross browser via pytest_generate_tests - arguments via CLI
-13) paramertize org id to allow changing environment
-14) remove all unnecessary Print statements
+12) Implement cross browser via pytest_generate_tests - arguments via CLI
+13) Paramertize org id to allow changing environment
+14) Remove all unnecessary Print statements
 15) ... much more :)
