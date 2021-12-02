@@ -1,0 +1,15 @@
+{
+    "customer": {
+        "attributes": {
+            "id": "MYNEWPROFILE",
+            "email": "",
+            "created_at": "",
+            "firstName": "",
+            "lastName":"Smith"
+        },
+        "identifiers": {},
+        "last_visited": null,
+        "unsubscribed": false,
+        "unsent_drafts": false
+    }
+}

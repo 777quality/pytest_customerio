@@ -1,0 +1,21 @@
+{
+    "customer": {
+        "attributes": {
+            "cio_id": "d9fa06000f10",
+            "email": "",
+            "id": "MYNEWPROFILE",
+            "created_at": 1638460091,
+            "firstName": "Gerald",
+            "lastName": "Smith"
+        },
+        "identifiers": {
+            "cio_id": "d9fa06000f10",
+            "email": null,
+            "id": "MYNEWPROFILE"
+        },
+        "last_visited": 0,
+        "unsubscribed": false,
+        "unsent_drafts": false,
+        "devices": []
+    }
+}

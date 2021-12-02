@@ -1,0 +1,6 @@
+    #print(login_resp.text)
+    #assert login_resp.status_code==200
+    #print(login_resp.status_code)
+#    print(email)
+#    expected_email = "dalefixter@gmail.com"
+#    assert email == expected_email
